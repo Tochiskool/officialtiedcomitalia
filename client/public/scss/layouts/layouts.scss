@@ -1,0 +1,152 @@
+$gutter: 30px;
+$gutter-margin: ($gutter/2);
+
+/***************************
+****************************
+Layout Styles
+****************************
+***************************/
+/*Content Container*/
+.container {
+   padding-right: $gutter-margin;
+   padding-left: $gutter-margin;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1170px;
+}
+.container5 {
+   padding-right: 10px;
+   padding-left: 10px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1180px;
+}
+/*Row*/
+.row {
+   margin-right: (-$gutter-margin);
+   margin-left: (-$gutter-margin);
+}
+/*Row float clear*/
+.row:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+[class*="col-"] {
+   width: 100%;
+   padding-left: $gutter-margin;
+   padding-right: $gutter-margin;
+}
+
+@media (min-width: 48em) {
+   [class*="col-"] {
+      float: left;
+   }
+   /* Column Third */
+   .col-1-3 {
+      width: 33.3333%;
+   }
+   /* Column Two Thirds */
+   .col-2-3 {
+      width: 66.6666%;
+   }
+   /*Divine Column in the middle*/
+   .col-1-2 {
+      width: 50%;
+   }
+   /*Divide by three quater */
+   .col-3-4 {
+      width: 75%;
+   }
+   /*One quater */
+   .col-1-4 {
+      width: 25%;
+   }
+   .col-1-6 {
+      width: 16.6666667%;
+   }
+   .col-1-5 {
+      width: 20%;
+   }
+   .col-1-12 {
+      width: 0.12%;
+   }
+   .col-1-100 {
+      width: 100%;
+   }
+}
+
+@media (min-width: 48em) {
+   .pull-right-sm {
+      float: right;
+   }
+}
+
+@media only screen and (max-width: 47.9375em) {
+   .remove-gutter-xs {
+      padding-left: 0px;
+      padding-right: 0px;
+   }
+
+   .containerSm {
+      padding-right: 0;
+      padding-left: 0;
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 1200px;
+   }
+   .rowSm {
+      margin-right: 0;
+      margin-left: 0;
+      overflow: hidden;
+   }
+   rowSm:after {
+      content: "";
+      display: table;
+      clear: both;
+   }
+   [class*="colSm-"] {
+      width: 100%;
+      padding-left: ($gutter-margin);
+      padding-right: ($gutter-margin);
+   }
+   [class*="colSm-"] {
+      float: left;
+   }
+   /* Column Third */
+   .colSm-1-3 {
+      width: 33.3333%;
+   }
+   /* Column Two Thirds */
+   .colSm-2-3 {
+      width: 66.6666%;
+   }
+   /*Divine Column in the middle*/
+   .colSm-1-2 {
+      width: 50%;
+   }
+   /*Divide by three quater */
+   .colSm-3-4 {
+      width: 75%;
+   }
+   /*One quater */
+   .colSm-1-4 {
+      width: 25%;
+   }
+   .colSm-1-6 {
+      width: 16.6666667%;
+   }
+   .colSm-1-5 {
+      width: 20%;
+   }
+   .colSm-1-12 {
+      width: 0.12%;
+   }
+   .colSm-1-100 {
+      width: 100%;
+   }
+   .pull-right-sm {
+      float: right;
+   }
+}

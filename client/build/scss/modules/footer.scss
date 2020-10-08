@@ -1,0 +1,18 @@
+/*Footer module */
+.footerStyle {
+   color: #ffffff;
+   background: #1f3303;
+}
+
+.footerStyle a {
+   color: orange;
+}
+.footerStyle a i {
+   color: white;
+}
+
+@media only screen and (max-width: 47.9375em) {
+   .footerStyle {
+      text-align: center;
+   }
+}

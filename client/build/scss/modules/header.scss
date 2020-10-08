@@ -1,0 +1,21 @@
+/*Header Module*/
+.header-primary {
+   //  background: #9b8579;
+   text-align: center;
+   padding-top: 1.125rem;
+   padding-bottom: 1.125rem;
+   @include small-and-above {
+      position: absolute;
+      z-index: 99;
+      width: 100%;
+
+      &:after {
+         content: "";
+         display: table;
+         clear: both;
+      }
+   }
+   @include extra-small-only {
+      background: #9b8579;
+   }
+}

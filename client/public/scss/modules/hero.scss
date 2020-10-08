@@ -1,0 +1,30 @@
+/*Hero Modules*/
+.hero {
+   text-align: center;
+}
+.hero-primary {
+   background-color: #594a42;
+   color: white;
+   padding-top: 6rem;
+   padding-bottom: 1.5625rem;
+   @include small-and-above {
+      padding-top: 6.2rem;
+   }
+}
+
+.hero-title {
+   margin-top: 1.5625rem;
+   margin-bottom: 1.5625rem;
+   font-size: 2.625em;
+}
+.hero-subtitle {
+   margin-top: 1.5625rem;
+   margin-bottom: 1.5625rem;
+   font-size: 1.5em;
+   font-weight: normal;
+}
+
+.hero-subtitle + button {
+   margin-top: 1.5625rem;
+   background: orange;
+}

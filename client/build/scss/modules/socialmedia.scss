@@ -1,0 +1,36 @@
+/********************************
+*********************************
+Social Media
+*********************************
+*********************************/
+.instagram:hover {
+   background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+   );
+   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+   background-color: #00aff0;
+}
+.facebook:hover {
+   background: #3b5998;
+   background-color: #00aff0;
+}
+.skype:hover {
+   background: #00aff0;
+}
+.whatsapp:hover {
+   background: linear-gradient(
+      45deg,
+      #e5ffcc,
+      #1ebea5,
+      #00e676,
+      #d0e9ea,
+      #edf8f5,
+      #ffffff
+   );
+   background-color: #00aff0;
+}

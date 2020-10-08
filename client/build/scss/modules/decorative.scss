@@ -1,0 +1,18 @@
+/*Decoration Module*/
+div p {
+   background-color: #e7e1d7;
+   box-shadow: 0.438rem 0.438rem 0.438rem -0.125rem rgba(0, 0, 0, 0.5);
+   border-radius: 0.625rem;
+   transition-property: background-color;
+   transition: 0.9s;
+   padding: 1rem;
+   line-height: 3.5;
+   padding: 3rem;
+   font-size: 1.1rem;
+   text-align: left;
+   letter-spacing: 0.1rem;
+}
+
+div p:hover {
+   background-color: #f8f8f8;
+}

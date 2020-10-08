@@ -1,0 +1,101 @@
+.formStyle {
+   margin-left: auto;
+   margin-right: auto;
+   width: 23rem;
+   // padding-top: 5rem;
+   // padding-bottom: 5rem;
+   // background: white;
+}
+
+// // .formBox form {
+// //    border: 0.2rem solid #1f3303;
+// // }
+
+.formBox {
+   padding-top: 5rem;
+   padding-bottom: 5rem;
+}
+
+fieldset {
+   padding-left: 1.625rem;
+   border-radius: 0.625rem;
+}
+
+label {
+   display: inline-block;
+   margin-bottom: 0.3125rem;
+   color: white;
+   font-style: italic;
+}
+
+input {
+   // float: right;
+   margin-right: 4.375rem;
+   width: 100%;
+   padding: 0.1rem;
+   border-radius: 0.5rem;
+}
+textarea {
+   // float: right;
+   margin-right: 4.375rem;
+   width: 100%;
+   padding: 0.1rem;
+   border-radius: 0.5rem;
+}
+
+input:invalid {
+   background: linear-gradient(120deg, #cc0000, #ff9900, #000066);
+}
+
+input:valid {
+   background-color: white;
+   color: #ff9900;
+}
+
+textarea:invalid {
+   background: linear-gradient(120deg, #cc0000, #ff9900, #000066);
+}
+textarea:valid {
+   background-color: white;
+   color: #ff9900;
+}
+.imb {
+   width: 2rem;
+   height: auto;
+}
+@media only screen and (max-width: 47.9375em) {
+   .formStyle {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+   }
+   // fieldset {
+   //    border-radius: 0.625rem;
+   // }
+
+   label {
+      display: inline-block;
+      margin-bottom: 0.3125rem;
+      color: white;
+      font-style: italic;
+   }
+
+   input {
+      // float: right;
+      margin-right: 4.375rem;
+      width: 100%;
+      padding: 0.1rem;
+      border-radius: 0.5rem;
+   }
+   textarea {
+      // float: right;
+      margin-right: 4.375rem;
+      width: 100%;
+      padding: 0.1rem;
+      border-radius: 0.5rem;
+   }
+   .formBox {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+   }
+}

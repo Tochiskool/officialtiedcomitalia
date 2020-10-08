@@ -1,0 +1,28 @@
+/*Navigation Modules*/
+.nav > ul {
+   list-style-type: none;
+   padding: 0px;
+   margin: 0px;
+}
+// ul li {
+//    list-style-type: none;
+// }
+.nav-primary {
+   margin-top: 2.1875rem;
+   display: none;
+   @include small-and-above {
+      float: right;
+      width: 85%;
+      text-align: right;
+      margin-top: 0px;
+      li {
+         display: inline-block;
+      }
+   }
+}
+
+@media (min-width: 48em) {
+   .nav-primary {
+      display: block;
+   }
+}

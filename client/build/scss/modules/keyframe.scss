@@ -1,0 +1,29 @@
+/***********************************
+************************************
+Key Frames
+************************************
+***********************************/
+@keyframes transitionIn {
+   from {
+      opacity: 0;
+      // transform: rotate(-10deg);
+      top: 0px;
+      transition: 0.9s;
+   }
+   to {
+      opacity: 1;
+      // transform: rotate(0deg);
+      top: 200px;
+      transition: 0.9s;
+   }
+}
+
+p:hover {
+   animation: transitionIn 0.1s;
+   box-shadow: none;
+}
+
+.frame:hover {
+   animation: transitionIn 0.1s ease-in-out;
+   box-shadow: none;
+}

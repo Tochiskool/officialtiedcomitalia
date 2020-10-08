@@ -1,0 +1,38 @@
+/***********************
+************************
+Design slide
+************************
+************************/
+
+.slide {
+   margin-left: auto;
+   margin-right: auto;
+   width: 8em;
+}
+
+.slide div p {
+   padding: 10rem;
+   background: #1f3303;
+}
+
+@media only screen and (max-width: 47.9375em) {
+   .slide {
+      margin-left: auto;
+      margin-right: auto;
+      width: 8em;
+   }
+
+   .slide div p {
+      padding: 5rem;
+      background: #1f3303;
+      overflow: hidden;
+   }
+
+   .slide {
+      overflow: hidden;
+   }
+   // .slide div p {
+   //    padding: 3rem;
+   //    background: #1f3303;
+   // }
+}

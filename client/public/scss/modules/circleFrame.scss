@@ -1,0 +1,13 @@
+.frame {
+   overflow: hidden;
+}
+
+.frame-primary {
+   margin: 2.8125rem auto 2.5rem auto;
+
+   @include circle(20.75rem);
+   img {
+      width: 100%;
+      // margin-right: 20px;
+   }
+}

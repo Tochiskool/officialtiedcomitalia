@@ -1,0 +1,21 @@
+/*Logo Modules*/
+.logo {
+   overflow: hidden;
+   display: inline-block;
+}
+
+.logo-primary {
+   width: 6rem;
+   height: 6rem;
+   border-radius: 3rem;
+   @include small-and-above {
+      width: auto;
+      height: 3.125rem;
+      float: left;
+      margin-left: 6rem;
+   }
+}
+
+.logo-primary img {
+   height: 100%;
+}

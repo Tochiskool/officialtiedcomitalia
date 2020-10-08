@@ -1,0 +1,19 @@
+/*Media Object Module*/
+.media,
+.media-body {
+   overflow: hidden;
+}
+
+.media-item {
+   float: left;
+   margin-right: 0.625rem;
+}
+
+.media-item i {
+   color: orange;
+   font-size: 5em;
+}
+.media-item i:hover {
+   background-color: #00aff0;
+   transition: 0.9s;
+}

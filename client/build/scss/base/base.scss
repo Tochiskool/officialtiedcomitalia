@@ -1,0 +1,117 @@
+/*Color List:
+- light blue = 00AEEF;
+- dark blue = 1C75BC
+- green = 8DC63F
+- dark green = 009444
+- orange = F7941E
+- dark orange = F15A29
+- brown = 594a42;
+#f8fcfc;
+ */
+/***************************
+****************************
+Reset Styles
+****************************
+***************************/
+
+/* Change all elements to use border-box */
+html {
+   box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+   box-sizing: inherit;
+}
+/***************************
+****************************
+Base Styles
+****************************
+***************************/
+body {
+   color: #1f3303;
+   // font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-family: "Montserrat", sans-serif;
+   background-color: none;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   margin: 0;
+   padding: 0;
+   font-display: swap;
+}
+
+h1,
+h2,
+h3 {
+   font-weight: bold;
+}
+
+a {
+   color: #1f3303;
+   font-weight: bold;
+   cursor: pointer;
+}
+a:hover {
+   text-decoration: underline;
+}
+a:active {
+   color: white;
+}
+
+i {
+   transition: 0.3s;
+}
+i:hover {
+   border-radius: 2rem;
+}
+
+.border-left {
+   border-left: 0.1rem solid #096969;
+}
+
+.box {
+   padding: 1rem;
+}
+
+mark {
+   color: #ffa600f8;
+   font-weight: bolder;
+   background: none;
+}
+mark:hover {
+   background-color: #1f3303;
+   color: white;
+}
+
+.fixed {
+   position: fixed;
+}
+
+//visuallyhidden for accessibility
+.visuallyhidden {
+   border: 0;
+   clip: rect(0 0 0 0);
+   height: 1px;
+   margin: -1px;
+   overflow: hidden;
+   padding: 0;
+   position: absolute;
+   width: 1px;
+}
+
+//font accessibility
+@font-face {
+   font-family: "Pacifico";
+   font-style: normal;
+   font-weight: 400;
+   src: local("Pacifico Regular"), local("Pacifico-Regular"),
+      url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2)
+         format("woff2");
+   font-display: swap;
+}
+
+//Map Height
+#mapid {
+   height: 30rem;
+}
