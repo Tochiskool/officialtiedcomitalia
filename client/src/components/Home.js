@@ -8,6 +8,7 @@ import Img from "react-cool-img";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Helmet } from "react-helmet";
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
    useEffect(() => {
@@ -57,9 +58,16 @@ const Home = () => {
                         resilient as we work hard to satisfy our customers
                         needs.That is why you have to waste no time in getting
                         to know us.
-                        <a href="/about">
-                           <em>Readmore</em>
-                        </a>
+                        <NavLink
+                           to="/about"
+                           exact
+                           // className="btn btn-primary"
+                           activeStyle={{ color: "white" }}
+                        >
+                           <em>
+                              <mark>Readmore...</mark>
+                           </em>
+                        </NavLink>
                      </p>
                   </div>
                </div>

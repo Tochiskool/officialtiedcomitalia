@@ -73,14 +73,14 @@ const About = () => {
                         <NavLink
                            to="/contact"
                            exact
-                           className="btn btn-primary"
+                           // className="btn btn-primary"
                            activeStyle={{ color: "white" }}
                         >
                            <em>
                               <mark>contact</mark>
                            </em>
                         </NavLink>
-                        us for whatever reason. We really do work hard to
+                        &nbsp; us for whatever reason. We really do work hard to
                         satisfy our customers needs.
                         <br /> In the Northeastern part of beautiful italy
                         specifically in the city of Trieste there are beautiful
@@ -114,20 +114,21 @@ const About = () => {
                         <em>
                            Every one wants a little bit of Italy in his life
                         </em>
-                        . All you have to do is get to our{" "}
+                        . All you have to do is get to our &nbsp;
                         <NavLink
                            to="/contact"
                            exact
-                           className="btn btn-primary"
+                           // className="btn btn-primary"
                            activeStyle={{ color: "white" }}
                         >
                            <em>
                               <mark>contact</mark>
                            </em>
                         </NavLink>
-                        page and send a message. We hope in partnering with you
-                        in accomplishing a long lasting business venture. Not to
-                        say the least we wish you a great day . Shalom
+                        &nbsp; page and send a message. We hope in partnering
+                        with you in accomplishing a long lasting business
+                        venture. Not to say the least we wish you a great day .
+                        Shalom
                         <br />
                         <strong>
                            A.Christian.N<em> of Italy</em>

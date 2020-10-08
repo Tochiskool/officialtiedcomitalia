@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { NavLink } from "react-router-dom";
 
 const Testimonial = () => {
    return (
@@ -30,10 +31,18 @@ const Testimonial = () => {
                            considers its customers satisfaction before every
                            other thing in this business. Do you intend to buy
                            italian products in bulk .Just go on check on our
-                           forbiden product list. ....
-                           <a href="/about">
-                              <em>ReadMore</em>
-                           </a>
+                           forbiden product list. &nbsp;
+                           <NavLink
+                              to="/about"
+                              exact
+                              // className="btn btn-primary"
+                              activeStyle={{ color: "white" }}
+                           >
+                              <em>
+                                 <mark>Readmore...</mark>
+                              </em>
+                           </NavLink>
+                           &nbsp;
                         </p>
                      </div>
                   </div>
@@ -47,10 +56,18 @@ const Testimonial = () => {
                            huge cost and unforseen circumstances. Worry much no
                            more for you have Christian the CEO of TiedCom who
                            will help you overcome all your worries for a
-                           commision. ...
-                           <a href="/about">
-                              <em>ReadMore</em>
-                           </a>
+                           commision.&nbsp;
+                           <NavLink
+                              to="/about"
+                              exact
+                              // className="btn btn-primary"
+                              activeStyle={{ color: "white" }}
+                           >
+                              <em>
+                                 <mark>Readmore...</mark>
+                              </em>
+                           </NavLink>
+                           &nbsp;
                         </p>
                      </div>
                   </div>
@@ -64,10 +81,18 @@ const Testimonial = () => {
                            getting to such markets. No worries Christian knows
                            the in and outs of African Markets and will discover
                            new markets and or raw materials for you, importing
-                           and exporting where needed. ...
-                           <a href="/about">
-                              <em>ReadMore</em>
-                           </a>
+                           and exporting where needed.&nbsp;
+                           <NavLink
+                              to="/about"
+                              exact
+                              // className="btn btn-primary"
+                              activeStyle={{ color: "white" }}
+                           >
+                              <em>
+                                 <mark>Readmore...</mark>
+                              </em>
+                           </NavLink>
+                           &nbsp;
                         </p>
                      </div>
                   </div>
