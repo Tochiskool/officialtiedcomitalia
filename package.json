@@ -3,7 +3,7 @@
    "version": "1.0.0",
    "description": "TIEDCOMITALIA's Official website",
    "engines": {
-      "node": "12.x",
+      "node": "14.x",
       "npm": "6.x"
    },
    "main": "server.js",
@@ -24,7 +24,8 @@
       "concurrently": "5.3.0",
       "express": "4.17.1",
       "mongoose": "5.10.7",
-      "morgan": "1.10.0"
+      "morgan": "1.10.0",
+      "mysql": "2.18.1"
    },
    "devDependencies": {
       "nodemon": "2.0.4"
