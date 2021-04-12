@@ -18,7 +18,7 @@ const Home = () => {
       <div>
          <Helmet>
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-            <title>Welcome to TiedCom Italia</title>
+            <title>Welcome to TiedCom Italia my official Page</title>
             <meta
                name="Welcome to TiedCom Italia"
                content="Italian shoes, Italian fabrics brand new and second handed grade A B, beverages, sanitary
