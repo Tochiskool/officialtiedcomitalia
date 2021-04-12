@@ -48,7 +48,7 @@ const Home = () => {
                      </div>
                   </div>
                   <div className="col-2-3" data-aos="flip-left">
-                     <h1>Welcome to TiedCom Italia</h1>
+                     <h1>Welcome to TiedCom Italia!!!</h1>
                      <p>
                         Tiedcom is a small company that is willing to cooperate,
                         collaborate and learn while exploring and creating new
